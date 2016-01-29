@@ -1,0 +1,871 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9AEDBFBB1C5A19B000301B32 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AEDBFBA1C5A19B000301B32 /* main.m */; };
+		9AEDBFBE1C5A19B000301B32 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AEDBFBD1C5A19B000301B32 /* AppDelegate.m */; };
+		9AEDBFC41C5A19B000301B32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AEDBFC21C5A19B000301B32 /* Main.storyboard */; };
+		9AEDBFC61C5A19B000301B32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AEDBFC51C5A19B000301B32 /* Assets.xcassets */; };
+		9AEDBFC91C5A19B000301B32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AEDBFC71C5A19B000301B32 /* LaunchScreen.storyboard */; };
+		9AEDBFD41C5A19B000301B32 /* TableViewEditWH31_32Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AEDBFD31C5A19B000301B32 /* TableViewEditWH31_32Tests.m */; };
+		9AEDBFDF1C5A19B000301B32 /* TableViewEditWH31_32UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AEDBFDE1C5A19B000301B32 /* TableViewEditWH31_32UITests.m */; };
+		9AEDBFEF1C5A19F100301B32 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AEDBFEE1C5A19F100301B32 /* Model.m */; };
+		9AEDBFF21C5A1A0000301B32 /* Brand.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AEDBFF11C5A1A0000301B32 /* Brand.m */; };
+		9AEDBFF51C5A1A8100301B32 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AEDBFF41C5A1A8100301B32 /* MainViewController.m */; };
+		9AEDC0481C5A1B1300301B32 /* 1034JW brogue.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AEDBFF71C5A1B1300301B32 /* 1034JW brogue.jpg */; };
+		9AEDC0491C5A1B1300301B32 /* Adrian.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AEDBFF81C5A1B1300301B32 /* Adrian.jpg */; };
+		9AEDC04A1C5A1B1300301B32 /* Alastair.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AEDBFF91C5A1B1300301B32 /* Alastair.jpg */; };
+		9AEDC04B1C5A1B1300301B32 /* Albert brogue.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AEDBFFA1C5A1B1300301B32 /* Albert brogue.jpg */; };
+		9AEDC04C1C5A1B1300301B32 /* Aldwych.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AEDBFFB1C5A1B1300301B32 /* Aldwych.jpg */; };
+		9AEDC04D1C5A1B1300301B32 /* Alfred II brogue.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AEDBFFC1C5A1B1300301B32 /* Alfred II brogue.jpg */; };
+		9AEDC04E1C5A1B1300301B32 /* Alfred.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AEDBFFD1C5A1B1300301B32 /* Alfred.jpg */; };
+		9AEDC04F1C5A1B1300301B32 /* Andrew brogue.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AEDBFFE1C5A1B1300301B32 /* Andrew brogue.jpg */; };
+		9AEDC0501C5A1B1300301B32 /* Arnold.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AEDBFFF1C5A1B1300301B32 /* Arnold.jpg */; };
+		9AEDC0511C5A1B1300301B32 /* Ashby brogue.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AEDC0001C5A1B1300301B32 /* Ashby brogue.jpg */; };
+		9AEDC0521C5A1B1300301B32 /* Asquith monk shoe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AEDC0011C5A1B1300301B32 /* Asquith monk shoe.jpg */; };
+		9AEDC0531C5A1B1300301B32 /* Attlee monk shoe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AEDC0021C5A1B1300301B32 /* Attlee monk shoe.jpg */; };
+		9AEDC0541C5A1B1300301B32 /* Badminton 2 brogue.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AEDC0031C5A1B1300301B32 /* Badminton 2 brogue.jpg */; };
+		9AEDC0551C5A1B1300301B32 /* Baldwin II.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AEDC0041C5A1B1300301B32 /* Baldwin II.jpg */; };
+		9AEDC0561C5A1B1300301B32 /* Banbury.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AEDC0051C5A1B1300301B32 /* Banbury.jpg */; };
+		9AEDC0571C5A1B1300301B32 /* Bath brogue.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AEDC0061C5A1B1300301B32 /* Bath brogue.jpg */; };
+		9AEDC0581C5A1B1300301B32 /* Bay brogue.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AEDC0071C5A1B1300301B32 /* Bay brogue.jpg */; };
+		9AEDC0591C5A1B1300301B32 /* Beaufort brogue.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AEDC0081C5A1B1300301B32 /* Beaufort brogue.jpg */; };
+		9AEDC05A1C5A1B1300301B32 /* Bodmin II brogue.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AEDC0091C5A1B1300301B32 /* Bodmin II brogue.jpg */; };
+		9AEDC05B1C5A1B1300301B32 /* Bourton (Rubber) brogue.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AEDC00A1C5A1B1300301B32 /* Bourton (Rubber) brogue.jpg */; };
+		9AEDC05C1C5A1B1300301B32 /* Bourton brogue.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AEDC00B1C5A1B1300301B32 /* Bourton brogue.jpg */; };
+		9AEDC05D1C5A1B1300301B32 /* Buckingham brogue.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AEDC00C1C5A1B1300301B32 /* Buckingham brogue.jpg */; };
+		9AEDC05E1C5A1B1300301B32 /* Burford brogue.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AEDC00D1C5A1B1300301B32 /* Burford brogue.jpg */; };
+		9AEDC05F1C5A1B1300301B32 /* Burwood brogue.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AEDC00E1C5A1B1300301B32 /* Burwood brogue.jpg */; };
+		9AEDC0601C5A1B1300301B32 /* Cannon monk shoe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AEDC00F1C5A1B1300301B32 /* Cannon monk shoe.jpg */; };
+		9AEDC0611C5A1B1300301B32 /* Chamberlain.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AEDC0101C5A1B1300301B32 /* Chamberlain.jpg */; };
+		9AEDC0621C5A1B1300301B32 /* Charles II.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AEDC0111C5A1B1300301B32 /* Charles II.jpg */; };
+		9AEDC0631C5A1B1300301B32 /* Chetwynd brogue.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AEDC0121C5A1B1300301B32 /* Chetwynd brogue.jpg */; };
+		9AEDC0641C5A1B1300301B32 /* Classic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AEDC0131C5A1B1300301B32 /* Classic.jpg */; };
+		9AEDC0651C5A1B1300301B32 /* Clive brogue.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AEDC0141C5A1B1300301B32 /* Clive brogue.jpg */; };
+		9AEDC0661C5A1B1300301B32 /* Clovehitch.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AEDC0151C5A1B1300301B32 /* Clovehitch.jpg */; };
+		9AEDC0671C5A1B1300301B32 /* Consul.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AEDC0161C5A1B1300301B32 /* Consul.jpg */; };
+		9AEDC0681C5A1B1300301B32 /* Cranmere monk shoe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AEDC0171C5A1B1300301B32 /* Cranmere monk shoe.jpg */; };
+		9AEDC0691C5A1B1300301B32 /* Darwin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AEDC0181C5A1B1300301B32 /* Darwin.jpg */; };
+		9AEDC06A1C5A1B1300301B32 /* Dazed brogue.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AEDC0191C5A1B1300301B32 /* Dazed brogue.jpg */; };
+		9AEDC06B1C5A1B1300301B32 /* Diplomat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AEDC01A1C5A1B1300301B32 /* Diplomat.jpg */; };
+		9AEDC06C1C5A1B1300301B32 /* Docksides.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AEDC01B1C5A1B1300301B32 /* Docksides.jpg */; };
+		9AEDC06D1C5A1B1300301B32 /* Drake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AEDC01C1C5A1B1300301B32 /* Drake.jpg */; };
+		9AEDC06E1C5A1B1300301B32 /* Dread brogue.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AEDC01D1C5A1B1300301B32 /* Dread brogue.jpg */; };
+		9AEDC06F1C5A1B1300301B32 /* Edward II.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AEDC01E1C5A1B1300301B32 /* Edward II.jpg */; };
+		9AEDC0701C5A1B1300301B32 /* Endeavor.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AEDC01F1C5A1B1300301B32 /* Endeavor.jpg */; };
+		9AEDC0711C5A1B1300301B32 /* Exmoor brogue.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AEDC0201C5A1B1300301B32 /* Exmoor brogue.jpg */; };
+		9AEDC0721C5A1B1300301B32 /* Fencote brogue.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AEDC0211C5A1B1300301B32 /* Fencote brogue.jpg */; };
+		9AEDC0731C5A1B1300301B32 /* Fiennes brogue.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AEDC0221C5A1B1300301B32 /* Fiennes brogue.jpg */; };
+		9AEDC0741C5A1B1300301B32 /* Gibraltar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AEDC0231C5A1B1300301B32 /* Gibraltar.jpg */; };
+		9AEDC0751C5A1B1300301B32 /* Grafton brogue.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AEDC0241C5A1B1300301B32 /* Grafton brogue.jpg */; };
+		9AEDC0761C5A1B1300301B32 /* Harry monk shoe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AEDC0251C5A1B1300301B32 /* Harry monk shoe.jpg */; };
+		9AEDC0771C5A1B1300301B32 /* Henry II brogue.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AEDC0261C5A1B1300301B32 /* Henry II brogue.jpg */; };
+		9AEDC0781C5A1B1300301B32 /* Highgate.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AEDC0271C5A1B1300301B32 /* Highgate.jpg */; };
+		9AEDC0791C5A1B1300301B32 /* Ilkley brogue.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AEDC0281C5A1B1300301B32 /* Ilkley brogue.jpg */; };
+		9AEDC07A1C5A1B1300301B32 /* J305 brogue.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AEDC0291C5A1B1300301B32 /* J305 brogue.jpg */; };
+		9AEDC07B1C5A1B1300301B32 /* James.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AEDC02A1C5A1B1300301B32 /* James.jpg */; };
+		9AEDC07C1C5A1B1300301B32 /* Jasper monk shoe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AEDC02B1C5A1B1300301B32 /* Jasper monk shoe.jpg */; };
+		9AEDC07D1C5A1B1300301B32 /* Keats 450.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AEDC02C1C5A1B1300301B32 /* Keats 450.jpg */; };
+		9AEDC07E1C5A1B1300301B32 /* Kempton (Rubber Sole).jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AEDC02D1C5A1B1300301B32 /* Kempton (Rubber Sole).jpg */; };
+		9AEDC07F1C5A1B1300301B32 /* Kendal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AEDC02E1C5A1B1300301B32 /* Kendal.jpg */; };
+		9AEDC0801C5A1B1300301B32 /* Kensington.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AEDC02F1C5A1B1300301B32 /* Kensington.jpg */; };
+		9AEDC0811C5A1B1300301B32 /* Keswick (rubber) brogue.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AEDC0301C5A1B1300301B32 /* Keswick (rubber) brogue.jpg */; };
+		9AEDC0821C5A1B1300301B32 /* Keswick brogue.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AEDC0311C5A1B1300301B32 /* Keswick brogue.jpg */; };
+		9AEDC0831C5A1B1300301B32 /* Ketch.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AEDC0321C5A1B1300301B32 /* Ketch.jpg */; };
+		9AEDC0841C5A1B1300301B32 /* Laurance.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AEDC0331C5A1B1300301B32 /* Laurance.jpg */; };
+		9AEDC0851C5A1B1300301B32 /* Masuka.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AEDC0341C5A1B1300301B32 /* Masuka.jpg */; };
+		9AEDC0861C5A1B1300301B32 /* Mayfair monk shoe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AEDC0351C5A1B1300301B32 /* Mayfair monk shoe.jpg */; };
+		9AEDC0871C5A1B1300301B32 /* Montpellier.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AEDC0361C5A1B1300301B32 /* Montpellier.jpg */; };
+		9AEDC0881C5A1B1300301B32 /* Moser monk shoe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AEDC0371C5A1B1300301B32 /* Moser monk shoe.jpg */; };
+		9AEDC0891C5A1B1300301B32 /* Northcote monk shoe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AEDC0381C5A1B1300301B32 /* Northcote monk shoe.jpg */; };
+		9AEDC08A1C5A1B1300301B32 /* Novikov brogue.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AEDC0391C5A1B1300301B32 /* Novikov brogue.jpg */; };
+		9AEDC08B1C5A1B1300301B32 /* Richard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AEDC03A1C5A1B1300301B32 /* Richard.jpg */; };
+		9AEDC08C1C5A1B1300301B32 /* Sahara Leather.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AEDC03B1C5A1B1300301B32 /* Sahara Leather.jpg */; };
+		9AEDC08D1C5A1B1300301B32 /* Schooner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AEDC03C1C5A1B1300301B32 /* Schooner.jpg */; };
+		9AEDC08E1C5A1B1300301B32 /* Scott.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AEDC03D1C5A1B1300301B32 /* Scott.jpg */; };
+		9AEDC08F1C5A1B1300301B32 /* Shackleton.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AEDC03E1C5A1B1300301B32 /* Shackleton.jpg */; };
+		9AEDC0901C5A1B1300301B32 /* Shannon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AEDC03F1C5A1B1300301B32 /* Shannon.jpg */; };
+		9AEDC0911C5A1B1300301B32 /* Sloop.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AEDC0401C5A1B1300301B32 /* Sloop.jpg */; };
+		9AEDC0921C5A1B1300301B32 /* Spinnaker.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AEDC0411C5A1B1300301B32 /* Spinnaker.jpg */; };
+		9AEDC0931C5A1B1300301B32 /* Stow (Rubber) brogue.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AEDC0421C5A1B1300301B32 /* Stow (Rubber) brogue.jpg */; };
+		9AEDC0941C5A1B1300301B32 /* Stow brogue.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AEDC0431C5A1B1300301B32 /* Stow brogue.jpg */; };
+		9AEDC0951C5A1B1300301B32 /* Thatcher brogue.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AEDC0441C5A1B1300301B32 /* Thatcher brogue.jpg */; };
+		9AEDC0961C5A1B1300301B32 /* Triton.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AEDC0451C5A1B1300301B32 /* Triton.jpg */; };
+		9AEDC0971C5A1B1300301B32 /* Tunstall monk shoe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AEDC0461C5A1B1300301B32 /* Tunstall monk shoe.jpg */; };
+		9AEDC0981C5A1B1300301B32 /* Wolf.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AEDC0471C5A1B1300301B32 /* Wolf.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9AEDBFD01C5A19B000301B32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AEDBFAE1C5A19B000301B32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AEDBFB51C5A19B000301B32;
+			remoteInfo = "TableViewEditWH31-32";
+		};
+		9AEDBFDB1C5A19B000301B32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AEDBFAE1C5A19B000301B32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AEDBFB51C5A19B000301B32;
+			remoteInfo = "TableViewEditWH31-32";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9AEDBFB61C5A19B000301B32 /* TableViewEditWH31-32.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TableViewEditWH31-32.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AEDBFBA1C5A19B000301B32 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9AEDBFBC1C5A19B000301B32 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9AEDBFBD1C5A19B000301B32 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9AEDBFC31C5A19B000301B32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9AEDBFC51C5A19B000301B32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9AEDBFC81C5A19B000301B32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9AEDBFCA1C5A19B000301B32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AEDBFCF1C5A19B000301B32 /* TableViewEditWH31-32Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TableViewEditWH31-32Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AEDBFD31C5A19B000301B32 /* TableViewEditWH31_32Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewEditWH31_32Tests.m; sourceTree = "<group>"; };
+		9AEDBFD51C5A19B000301B32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AEDBFDA1C5A19B000301B32 /* TableViewEditWH31-32UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TableViewEditWH31-32UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AEDBFDE1C5A19B000301B32 /* TableViewEditWH31_32UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewEditWH31_32UITests.m; sourceTree = "<group>"; };
+		9AEDBFE01C5A19B000301B32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AEDBFED1C5A19F100301B32 /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		9AEDBFEE1C5A19F100301B32 /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		9AEDBFF01C5A1A0000301B32 /* Brand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Brand.h; sourceTree = "<group>"; };
+		9AEDBFF11C5A1A0000301B32 /* Brand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Brand.m; sourceTree = "<group>"; };
+		9AEDBFF31C5A1A8100301B32 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		9AEDBFF41C5A1A8100301B32 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		9AEDBFF71C5A1B1300301B32 /* 1034JW brogue.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1034JW brogue.jpg"; sourceTree = "<group>"; };
+		9AEDBFF81C5A1B1300301B32 /* Adrian.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Adrian.jpg; sourceTree = "<group>"; };
+		9AEDBFF91C5A1B1300301B32 /* Alastair.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Alastair.jpg; sourceTree = "<group>"; };
+		9AEDBFFA1C5A1B1300301B32 /* Albert brogue.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Albert brogue.jpg"; sourceTree = "<group>"; };
+		9AEDBFFB1C5A1B1300301B32 /* Aldwych.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Aldwych.jpg; sourceTree = "<group>"; };
+		9AEDBFFC1C5A1B1300301B32 /* Alfred II brogue.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Alfred II brogue.jpg"; sourceTree = "<group>"; };
+		9AEDBFFD1C5A1B1300301B32 /* Alfred.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Alfred.jpg; sourceTree = "<group>"; };
+		9AEDBFFE1C5A1B1300301B32 /* Andrew brogue.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Andrew brogue.jpg"; sourceTree = "<group>"; };
+		9AEDBFFF1C5A1B1300301B32 /* Arnold.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Arnold.jpg; sourceTree = "<group>"; };
+		9AEDC0001C5A1B1300301B32 /* Ashby brogue.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ashby brogue.jpg"; sourceTree = "<group>"; };
+		9AEDC0011C5A1B1300301B32 /* Asquith monk shoe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Asquith monk shoe.jpg"; sourceTree = "<group>"; };
+		9AEDC0021C5A1B1300301B32 /* Attlee monk shoe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Attlee monk shoe.jpg"; sourceTree = "<group>"; };
+		9AEDC0031C5A1B1300301B32 /* Badminton 2 brogue.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Badminton 2 brogue.jpg"; sourceTree = "<group>"; };
+		9AEDC0041C5A1B1300301B32 /* Baldwin II.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Baldwin II.jpg"; sourceTree = "<group>"; };
+		9AEDC0051C5A1B1300301B32 /* Banbury.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Banbury.jpg; sourceTree = "<group>"; };
+		9AEDC0061C5A1B1300301B32 /* Bath brogue.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Bath brogue.jpg"; sourceTree = "<group>"; };
+		9AEDC0071C5A1B1300301B32 /* Bay brogue.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Bay brogue.jpg"; sourceTree = "<group>"; };
+		9AEDC0081C5A1B1300301B32 /* Beaufort brogue.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Beaufort brogue.jpg"; sourceTree = "<group>"; };
+		9AEDC0091C5A1B1300301B32 /* Bodmin II brogue.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Bodmin II brogue.jpg"; sourceTree = "<group>"; };
+		9AEDC00A1C5A1B1300301B32 /* Bourton (Rubber) brogue.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Bourton (Rubber) brogue.jpg"; sourceTree = "<group>"; };
+		9AEDC00B1C5A1B1300301B32 /* Bourton brogue.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Bourton brogue.jpg"; sourceTree = "<group>"; };
+		9AEDC00C1C5A1B1300301B32 /* Buckingham brogue.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Buckingham brogue.jpg"; sourceTree = "<group>"; };
+		9AEDC00D1C5A1B1300301B32 /* Burford brogue.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Burford brogue.jpg"; sourceTree = "<group>"; };
+		9AEDC00E1C5A1B1300301B32 /* Burwood brogue.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Burwood brogue.jpg"; sourceTree = "<group>"; };
+		9AEDC00F1C5A1B1300301B32 /* Cannon monk shoe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cannon monk shoe.jpg"; sourceTree = "<group>"; };
+		9AEDC0101C5A1B1300301B32 /* Chamberlain.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Chamberlain.jpg; sourceTree = "<group>"; };
+		9AEDC0111C5A1B1300301B32 /* Charles II.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Charles II.jpg"; sourceTree = "<group>"; };
+		9AEDC0121C5A1B1300301B32 /* Chetwynd brogue.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Chetwynd brogue.jpg"; sourceTree = "<group>"; };
+		9AEDC0131C5A1B1300301B32 /* Classic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Classic.jpg; sourceTree = "<group>"; };
+		9AEDC0141C5A1B1300301B32 /* Clive brogue.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Clive brogue.jpg"; sourceTree = "<group>"; };
+		9AEDC0151C5A1B1300301B32 /* Clovehitch.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Clovehitch.jpg; sourceTree = "<group>"; };
+		9AEDC0161C5A1B1300301B32 /* Consul.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Consul.jpg; sourceTree = "<group>"; };
+		9AEDC0171C5A1B1300301B32 /* Cranmere monk shoe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cranmere monk shoe.jpg"; sourceTree = "<group>"; };
+		9AEDC0181C5A1B1300301B32 /* Darwin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Darwin.jpg; sourceTree = "<group>"; };
+		9AEDC0191C5A1B1300301B32 /* Dazed brogue.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Dazed brogue.jpg"; sourceTree = "<group>"; };
+		9AEDC01A1C5A1B1300301B32 /* Diplomat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Diplomat.jpg; sourceTree = "<group>"; };
+		9AEDC01B1C5A1B1300301B32 /* Docksides.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Docksides.jpg; sourceTree = "<group>"; };
+		9AEDC01C1C5A1B1300301B32 /* Drake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Drake.jpg; sourceTree = "<group>"; };
+		9AEDC01D1C5A1B1300301B32 /* Dread brogue.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Dread brogue.jpg"; sourceTree = "<group>"; };
+		9AEDC01E1C5A1B1300301B32 /* Edward II.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Edward II.jpg"; sourceTree = "<group>"; };
+		9AEDC01F1C5A1B1300301B32 /* Endeavor.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Endeavor.jpg; sourceTree = "<group>"; };
+		9AEDC0201C5A1B1300301B32 /* Exmoor brogue.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Exmoor brogue.jpg"; sourceTree = "<group>"; };
+		9AEDC0211C5A1B1300301B32 /* Fencote brogue.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Fencote brogue.jpg"; sourceTree = "<group>"; };
+		9AEDC0221C5A1B1300301B32 /* Fiennes brogue.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Fiennes brogue.jpg"; sourceTree = "<group>"; };
+		9AEDC0231C5A1B1300301B32 /* Gibraltar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Gibraltar.jpg; sourceTree = "<group>"; };
+		9AEDC0241C5A1B1300301B32 /* Grafton brogue.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Grafton brogue.jpg"; sourceTree = "<group>"; };
+		9AEDC0251C5A1B1300301B32 /* Harry monk shoe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Harry monk shoe.jpg"; sourceTree = "<group>"; };
+		9AEDC0261C5A1B1300301B32 /* Henry II brogue.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Henry II brogue.jpg"; sourceTree = "<group>"; };
+		9AEDC0271C5A1B1300301B32 /* Highgate.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Highgate.jpg; sourceTree = "<group>"; };
+		9AEDC0281C5A1B1300301B32 /* Ilkley brogue.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ilkley brogue.jpg"; sourceTree = "<group>"; };
+		9AEDC0291C5A1B1300301B32 /* J305 brogue.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "J305 brogue.jpg"; sourceTree = "<group>"; };
+		9AEDC02A1C5A1B1300301B32 /* James.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = James.jpg; sourceTree = "<group>"; };
+		9AEDC02B1C5A1B1300301B32 /* Jasper monk shoe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Jasper monk shoe.jpg"; sourceTree = "<group>"; };
+		9AEDC02C1C5A1B1300301B32 /* Keats 450.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Keats 450.jpg"; sourceTree = "<group>"; };
+		9AEDC02D1C5A1B1300301B32 /* Kempton (Rubber Sole).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Kempton (Rubber Sole).jpg"; sourceTree = "<group>"; };
+		9AEDC02E1C5A1B1300301B32 /* Kendal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Kendal.jpg; sourceTree = "<group>"; };
+		9AEDC02F1C5A1B1300301B32 /* Kensington.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Kensington.jpg; sourceTree = "<group>"; };
+		9AEDC0301C5A1B1300301B32 /* Keswick (rubber) brogue.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Keswick (rubber) brogue.jpg"; sourceTree = "<group>"; };
+		9AEDC0311C5A1B1300301B32 /* Keswick brogue.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Keswick brogue.jpg"; sourceTree = "<group>"; };
+		9AEDC0321C5A1B1300301B32 /* Ketch.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Ketch.jpg; sourceTree = "<group>"; };
+		9AEDC0331C5A1B1300301B32 /* Laurance.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Laurance.jpg; sourceTree = "<group>"; };
+		9AEDC0341C5A1B1300301B32 /* Masuka.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Masuka.jpg; sourceTree = "<group>"; };
+		9AEDC0351C5A1B1300301B32 /* Mayfair monk shoe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Mayfair monk shoe.jpg"; sourceTree = "<group>"; };
+		9AEDC0361C5A1B1300301B32 /* Montpellier.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Montpellier.jpg; sourceTree = "<group>"; };
+		9AEDC0371C5A1B1300301B32 /* Moser monk shoe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Moser monk shoe.jpg"; sourceTree = "<group>"; };
+		9AEDC0381C5A1B1300301B32 /* Northcote monk shoe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Northcote monk shoe.jpg"; sourceTree = "<group>"; };
+		9AEDC0391C5A1B1300301B32 /* Novikov brogue.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Novikov brogue.jpg"; sourceTree = "<group>"; };
+		9AEDC03A1C5A1B1300301B32 /* Richard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Richard.jpg; sourceTree = "<group>"; };
+		9AEDC03B1C5A1B1300301B32 /* Sahara Leather.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Sahara Leather.jpg"; sourceTree = "<group>"; };
+		9AEDC03C1C5A1B1300301B32 /* Schooner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Schooner.jpg; sourceTree = "<group>"; };
+		9AEDC03D1C5A1B1300301B32 /* Scott.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Scott.jpg; sourceTree = "<group>"; };
+		9AEDC03E1C5A1B1300301B32 /* Shackleton.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Shackleton.jpg; sourceTree = "<group>"; };
+		9AEDC03F1C5A1B1300301B32 /* Shannon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Shannon.jpg; sourceTree = "<group>"; };
+		9AEDC0401C5A1B1300301B32 /* Sloop.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sloop.jpg; sourceTree = "<group>"; };
+		9AEDC0411C5A1B1300301B32 /* Spinnaker.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Spinnaker.jpg; sourceTree = "<group>"; };
+		9AEDC0421C5A1B1300301B32 /* Stow (Rubber) brogue.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Stow (Rubber) brogue.jpg"; sourceTree = "<group>"; };
+		9AEDC0431C5A1B1300301B32 /* Stow brogue.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Stow brogue.jpg"; sourceTree = "<group>"; };
+		9AEDC0441C5A1B1300301B32 /* Thatcher brogue.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Thatcher brogue.jpg"; sourceTree = "<group>"; };
+		9AEDC0451C5A1B1300301B32 /* Triton.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Triton.jpg; sourceTree = "<group>"; };
+		9AEDC0461C5A1B1300301B32 /* Tunstall monk shoe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Tunstall monk shoe.jpg"; sourceTree = "<group>"; };
+		9AEDC0471C5A1B1300301B32 /* Wolf.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Wolf.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9AEDBFB31C5A19B000301B32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AEDBFCC1C5A19B000301B32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AEDBFD71C5A19B000301B32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9AEDBFAD1C5A19B000301B32 = {
+			isa = PBXGroup;
+			children = (
+				9AEDBFB81C5A19B000301B32 /* TableViewEditWH31-32 */,
+				9AEDBFD21C5A19B000301B32 /* TableViewEditWH31-32Tests */,
+				9AEDBFDD1C5A19B000301B32 /* TableViewEditWH31-32UITests */,
+				9AEDBFB71C5A19B000301B32 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9AEDBFB71C5A19B000301B32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AEDBFB61C5A19B000301B32 /* TableViewEditWH31-32.app */,
+				9AEDBFCF1C5A19B000301B32 /* TableViewEditWH31-32Tests.xctest */,
+				9AEDBFDA1C5A19B000301B32 /* TableViewEditWH31-32UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9AEDBFB81C5A19B000301B32 /* TableViewEditWH31-32 */ = {
+			isa = PBXGroup;
+			children = (
+				9AEDBFEC1C5A19D900301B32 /* Models */,
+				9AEDBFBC1C5A19B000301B32 /* AppDelegate.h */,
+				9AEDBFBD1C5A19B000301B32 /* AppDelegate.m */,
+				9AEDBFF31C5A1A8100301B32 /* MainViewController.h */,
+				9AEDBFF41C5A1A8100301B32 /* MainViewController.m */,
+				9AEDBFC21C5A19B000301B32 /* Main.storyboard */,
+				9AEDBFC51C5A19B000301B32 /* Assets.xcassets */,
+				9AEDBFC71C5A19B000301B32 /* LaunchScreen.storyboard */,
+				9AEDBFCA1C5A19B000301B32 /* Info.plist */,
+				9AEDBFF61C5A1B1300301B32 /* ImagesForApp */,
+				9AEDBFB91C5A19B000301B32 /* Supporting Files */,
+			);
+			path = "TableViewEditWH31-32";
+			sourceTree = "<group>";
+		};
+		9AEDBFB91C5A19B000301B32 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9AEDBFBA1C5A19B000301B32 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9AEDBFD21C5A19B000301B32 /* TableViewEditWH31-32Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9AEDBFD31C5A19B000301B32 /* TableViewEditWH31_32Tests.m */,
+				9AEDBFD51C5A19B000301B32 /* Info.plist */,
+			);
+			path = "TableViewEditWH31-32Tests";
+			sourceTree = "<group>";
+		};
+		9AEDBFDD1C5A19B000301B32 /* TableViewEditWH31-32UITests */ = {
+			isa = PBXGroup;
+			children = (
+				9AEDBFDE1C5A19B000301B32 /* TableViewEditWH31_32UITests.m */,
+				9AEDBFE01C5A19B000301B32 /* Info.plist */,
+			);
+			path = "TableViewEditWH31-32UITests";
+			sourceTree = "<group>";
+		};
+		9AEDBFEC1C5A19D900301B32 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9AEDBFF01C5A1A0000301B32 /* Brand.h */,
+				9AEDBFF11C5A1A0000301B32 /* Brand.m */,
+				9AEDBFED1C5A19F100301B32 /* Model.h */,
+				9AEDBFEE1C5A19F100301B32 /* Model.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		9AEDBFF61C5A1B1300301B32 /* ImagesForApp */ = {
+			isa = PBXGroup;
+			children = (
+				9AEDBFF71C5A1B1300301B32 /* 1034JW brogue.jpg */,
+				9AEDBFF81C5A1B1300301B32 /* Adrian.jpg */,
+				9AEDBFF91C5A1B1300301B32 /* Alastair.jpg */,
+				9AEDBFFA1C5A1B1300301B32 /* Albert brogue.jpg */,
+				9AEDBFFB1C5A1B1300301B32 /* Aldwych.jpg */,
+				9AEDBFFC1C5A1B1300301B32 /* Alfred II brogue.jpg */,
+				9AEDBFFD1C5A1B1300301B32 /* Alfred.jpg */,
+				9AEDBFFE1C5A1B1300301B32 /* Andrew brogue.jpg */,
+				9AEDBFFF1C5A1B1300301B32 /* Arnold.jpg */,
+				9AEDC0001C5A1B1300301B32 /* Ashby brogue.jpg */,
+				9AEDC0011C5A1B1300301B32 /* Asquith monk shoe.jpg */,
+				9AEDC0021C5A1B1300301B32 /* Attlee monk shoe.jpg */,
+				9AEDC0031C5A1B1300301B32 /* Badminton 2 brogue.jpg */,
+				9AEDC0041C5A1B1300301B32 /* Baldwin II.jpg */,
+				9AEDC0051C5A1B1300301B32 /* Banbury.jpg */,
+				9AEDC0061C5A1B1300301B32 /* Bath brogue.jpg */,
+				9AEDC0071C5A1B1300301B32 /* Bay brogue.jpg */,
+				9AEDC0081C5A1B1300301B32 /* Beaufort brogue.jpg */,
+				9AEDC0091C5A1B1300301B32 /* Bodmin II brogue.jpg */,
+				9AEDC00A1C5A1B1300301B32 /* Bourton (Rubber) brogue.jpg */,
+				9AEDC00B1C5A1B1300301B32 /* Bourton brogue.jpg */,
+				9AEDC00C1C5A1B1300301B32 /* Buckingham brogue.jpg */,
+				9AEDC00D1C5A1B1300301B32 /* Burford brogue.jpg */,
+				9AEDC00E1C5A1B1300301B32 /* Burwood brogue.jpg */,
+				9AEDC00F1C5A1B1300301B32 /* Cannon monk shoe.jpg */,
+				9AEDC0101C5A1B1300301B32 /* Chamberlain.jpg */,
+				9AEDC0111C5A1B1300301B32 /* Charles II.jpg */,
+				9AEDC0121C5A1B1300301B32 /* Chetwynd brogue.jpg */,
+				9AEDC0131C5A1B1300301B32 /* Classic.jpg */,
+				9AEDC0141C5A1B1300301B32 /* Clive brogue.jpg */,
+				9AEDC0151C5A1B1300301B32 /* Clovehitch.jpg */,
+				9AEDC0161C5A1B1300301B32 /* Consul.jpg */,
+				9AEDC0171C5A1B1300301B32 /* Cranmere monk shoe.jpg */,
+				9AEDC0181C5A1B1300301B32 /* Darwin.jpg */,
+				9AEDC0191C5A1B1300301B32 /* Dazed brogue.jpg */,
+				9AEDC01A1C5A1B1300301B32 /* Diplomat.jpg */,
+				9AEDC01B1C5A1B1300301B32 /* Docksides.jpg */,
+				9AEDC01C1C5A1B1300301B32 /* Drake.jpg */,
+				9AEDC01D1C5A1B1300301B32 /* Dread brogue.jpg */,
+				9AEDC01E1C5A1B1300301B32 /* Edward II.jpg */,
+				9AEDC01F1C5A1B1300301B32 /* Endeavor.jpg */,
+				9AEDC0201C5A1B1300301B32 /* Exmoor brogue.jpg */,
+				9AEDC0211C5A1B1300301B32 /* Fencote brogue.jpg */,
+				9AEDC0221C5A1B1300301B32 /* Fiennes brogue.jpg */,
+				9AEDC0231C5A1B1300301B32 /* Gibraltar.jpg */,
+				9AEDC0241C5A1B1300301B32 /* Grafton brogue.jpg */,
+				9AEDC0251C5A1B1300301B32 /* Harry monk shoe.jpg */,
+				9AEDC0261C5A1B1300301B32 /* Henry II brogue.jpg */,
+				9AEDC0271C5A1B1300301B32 /* Highgate.jpg */,
+				9AEDC0281C5A1B1300301B32 /* Ilkley brogue.jpg */,
+				9AEDC0291C5A1B1300301B32 /* J305 brogue.jpg */,
+				9AEDC02A1C5A1B1300301B32 /* James.jpg */,
+				9AEDC02B1C5A1B1300301B32 /* Jasper monk shoe.jpg */,
+				9AEDC02C1C5A1B1300301B32 /* Keats 450.jpg */,
+				9AEDC02D1C5A1B1300301B32 /* Kempton (Rubber Sole).jpg */,
+				9AEDC02E1C5A1B1300301B32 /* Kendal.jpg */,
+				9AEDC02F1C5A1B1300301B32 /* Kensington.jpg */,
+				9AEDC0301C5A1B1300301B32 /* Keswick (rubber) brogue.jpg */,
+				9AEDC0311C5A1B1300301B32 /* Keswick brogue.jpg */,
+				9AEDC0321C5A1B1300301B32 /* Ketch.jpg */,
+				9AEDC0331C5A1B1300301B32 /* Laurance.jpg */,
+				9AEDC0341C5A1B1300301B32 /* Masuka.jpg */,
+				9AEDC0351C5A1B1300301B32 /* Mayfair monk shoe.jpg */,
+				9AEDC0361C5A1B1300301B32 /* Montpellier.jpg */,
+				9AEDC0371C5A1B1300301B32 /* Moser monk shoe.jpg */,
+				9AEDC0381C5A1B1300301B32 /* Northcote monk shoe.jpg */,
+				9AEDC0391C5A1B1300301B32 /* Novikov brogue.jpg */,
+				9AEDC03A1C5A1B1300301B32 /* Richard.jpg */,
+				9AEDC03B1C5A1B1300301B32 /* Sahara Leather.jpg */,
+				9AEDC03C1C5A1B1300301B32 /* Schooner.jpg */,
+				9AEDC03D1C5A1B1300301B32 /* Scott.jpg */,
+				9AEDC03E1C5A1B1300301B32 /* Shackleton.jpg */,
+				9AEDC03F1C5A1B1300301B32 /* Shannon.jpg */,
+				9AEDC0401C5A1B1300301B32 /* Sloop.jpg */,
+				9AEDC0411C5A1B1300301B32 /* Spinnaker.jpg */,
+				9AEDC0421C5A1B1300301B32 /* Stow (Rubber) brogue.jpg */,
+				9AEDC0431C5A1B1300301B32 /* Stow brogue.jpg */,
+				9AEDC0441C5A1B1300301B32 /* Thatcher brogue.jpg */,
+				9AEDC0451C5A1B1300301B32 /* Triton.jpg */,
+				9AEDC0461C5A1B1300301B32 /* Tunstall monk shoe.jpg */,
+				9AEDC0471C5A1B1300301B32 /* Wolf.jpg */,
+			);
+			path = ImagesForApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9AEDBFB51C5A19B000301B32 /* TableViewEditWH31-32 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AEDBFE31C5A19B000301B32 /* Build configuration list for PBXNativeTarget "TableViewEditWH31-32" */;
+			buildPhases = (
+				9AEDBFB21C5A19B000301B32 /* Sources */,
+				9AEDBFB31C5A19B000301B32 /* Frameworks */,
+				9AEDBFB41C5A19B000301B32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TableViewEditWH31-32";
+			productName = "TableViewEditWH31-32";
+			productReference = 9AEDBFB61C5A19B000301B32 /* TableViewEditWH31-32.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9AEDBFCE1C5A19B000301B32 /* TableViewEditWH31-32Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AEDBFE61C5A19B000301B32 /* Build configuration list for PBXNativeTarget "TableViewEditWH31-32Tests" */;
+			buildPhases = (
+				9AEDBFCB1C5A19B000301B32 /* Sources */,
+				9AEDBFCC1C5A19B000301B32 /* Frameworks */,
+				9AEDBFCD1C5A19B000301B32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AEDBFD11C5A19B000301B32 /* PBXTargetDependency */,
+			);
+			name = "TableViewEditWH31-32Tests";
+			productName = "TableViewEditWH31-32Tests";
+			productReference = 9AEDBFCF1C5A19B000301B32 /* TableViewEditWH31-32Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9AEDBFD91C5A19B000301B32 /* TableViewEditWH31-32UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AEDBFE91C5A19B000301B32 /* Build configuration list for PBXNativeTarget "TableViewEditWH31-32UITests" */;
+			buildPhases = (
+				9AEDBFD61C5A19B000301B32 /* Sources */,
+				9AEDBFD71C5A19B000301B32 /* Frameworks */,
+				9AEDBFD81C5A19B000301B32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AEDBFDC1C5A19B000301B32 /* PBXTargetDependency */,
+			);
+			name = "TableViewEditWH31-32UITests";
+			productName = "TableViewEditWH31-32UITests";
+			productReference = 9AEDBFDA1C5A19B000301B32 /* TableViewEditWH31-32UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9AEDBFAE1C5A19B000301B32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Nikolay Berlioz";
+				TargetAttributes = {
+					9AEDBFB51C5A19B000301B32 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					9AEDBFCE1C5A19B000301B32 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 9AEDBFB51C5A19B000301B32;
+					};
+					9AEDBFD91C5A19B000301B32 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 9AEDBFB51C5A19B000301B32;
+					};
+				};
+			};
+			buildConfigurationList = 9AEDBFB11C5A19B000301B32 /* Build configuration list for PBXProject "TableViewEditWH31-32" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9AEDBFAD1C5A19B000301B32;
+			productRefGroup = 9AEDBFB71C5A19B000301B32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9AEDBFB51C5A19B000301B32 /* TableViewEditWH31-32 */,
+				9AEDBFCE1C5A19B000301B32 /* TableViewEditWH31-32Tests */,
+				9AEDBFD91C5A19B000301B32 /* TableViewEditWH31-32UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9AEDBFB41C5A19B000301B32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AEDC0881C5A1B1300301B32 /* Moser monk shoe.jpg in Resources */,
+				9AEDC04A1C5A1B1300301B32 /* Alastair.jpg in Resources */,
+				9AEDBFC91C5A19B000301B32 /* LaunchScreen.storyboard in Resources */,
+				9AEDC0921C5A1B1300301B32 /* Spinnaker.jpg in Resources */,
+				9AEDC0831C5A1B1300301B32 /* Ketch.jpg in Resources */,
+				9AEDC04F1C5A1B1300301B32 /* Andrew brogue.jpg in Resources */,
+				9AEDC0631C5A1B1300301B32 /* Chetwynd brogue.jpg in Resources */,
+				9AEDC0821C5A1B1300301B32 /* Keswick brogue.jpg in Resources */,
+				9AEDC0741C5A1B1300301B32 /* Gibraltar.jpg in Resources */,
+				9AEDC08B1C5A1B1300301B32 /* Richard.jpg in Resources */,
+				9AEDC0521C5A1B1300301B32 /* Asquith monk shoe.jpg in Resources */,
+				9AEDC0601C5A1B1300301B32 /* Cannon monk shoe.jpg in Resources */,
+				9AEDC0621C5A1B1300301B32 /* Charles II.jpg in Resources */,
+				9AEDC0891C5A1B1300301B32 /* Northcote monk shoe.jpg in Resources */,
+				9AEDC0751C5A1B1300301B32 /* Grafton brogue.jpg in Resources */,
+				9AEDC06B1C5A1B1300301B32 /* Diplomat.jpg in Resources */,
+				9AEDC0531C5A1B1300301B32 /* Attlee monk shoe.jpg in Resources */,
+				9AEDC06E1C5A1B1300301B32 /* Dread brogue.jpg in Resources */,
+				9AEDC0781C5A1B1300301B32 /* Highgate.jpg in Resources */,
+				9AEDC0671C5A1B1300301B32 /* Consul.jpg in Resources */,
+				9AEDC0901C5A1B1300301B32 /* Shannon.jpg in Resources */,
+				9AEDC07F1C5A1B1300301B32 /* Kendal.jpg in Resources */,
+				9AEDC0481C5A1B1300301B32 /* 1034JW brogue.jpg in Resources */,
+				9AEDC04E1C5A1B1300301B32 /* Alfred.jpg in Resources */,
+				9AEDC06A1C5A1B1300301B32 /* Dazed brogue.jpg in Resources */,
+				9AEDC06C1C5A1B1300301B32 /* Docksides.jpg in Resources */,
+				9AEDC0701C5A1B1300301B32 /* Endeavor.jpg in Resources */,
+				9AEDC06F1C5A1B1300301B32 /* Edward II.jpg in Resources */,
+				9AEDC05F1C5A1B1300301B32 /* Burwood brogue.jpg in Resources */,
+				9AEDC0591C5A1B1300301B32 /* Beaufort brogue.jpg in Resources */,
+				9AEDC0871C5A1B1300301B32 /* Montpellier.jpg in Resources */,
+				9AEDC0661C5A1B1300301B32 /* Clovehitch.jpg in Resources */,
+				9AEDC0561C5A1B1300301B32 /* Banbury.jpg in Resources */,
+				9AEDC0801C5A1B1300301B32 /* Kensington.jpg in Resources */,
+				9AEDC0611C5A1B1300301B32 /* Chamberlain.jpg in Resources */,
+				9AEDC0981C5A1B1300301B32 /* Wolf.jpg in Resources */,
+				9AEDC0541C5A1B1300301B32 /* Badminton 2 brogue.jpg in Resources */,
+				9AEDC0691C5A1B1300301B32 /* Darwin.jpg in Resources */,
+				9AEDC0581C5A1B1300301B32 /* Bay brogue.jpg in Resources */,
+				9AEDC07C1C5A1B1300301B32 /* Jasper monk shoe.jpg in Resources */,
+				9AEDC0501C5A1B1300301B32 /* Arnold.jpg in Resources */,
+				9AEDC08C1C5A1B1300301B32 /* Sahara Leather.jpg in Resources */,
+				9AEDC08F1C5A1B1300301B32 /* Shackleton.jpg in Resources */,
+				9AEDC08E1C5A1B1300301B32 /* Scott.jpg in Resources */,
+				9AEDC0961C5A1B1300301B32 /* Triton.jpg in Resources */,
+				9AEDC07E1C5A1B1300301B32 /* Kempton (Rubber Sole).jpg in Resources */,
+				9AEDC04B1C5A1B1300301B32 /* Albert brogue.jpg in Resources */,
+				9AEDC0731C5A1B1300301B32 /* Fiennes brogue.jpg in Resources */,
+				9AEDC08D1C5A1B1300301B32 /* Schooner.jpg in Resources */,
+				9AEDC0571C5A1B1300301B32 /* Bath brogue.jpg in Resources */,
+				9AEDC0971C5A1B1300301B32 /* Tunstall monk shoe.jpg in Resources */,
+				9AEDC0841C5A1B1300301B32 /* Laurance.jpg in Resources */,
+				9AEDC0861C5A1B1300301B32 /* Mayfair monk shoe.jpg in Resources */,
+				9AEDC0791C5A1B1300301B32 /* Ilkley brogue.jpg in Resources */,
+				9AEDC05C1C5A1B1300301B32 /* Bourton brogue.jpg in Resources */,
+				9AEDC0931C5A1B1300301B32 /* Stow (Rubber) brogue.jpg in Resources */,
+				9AEDC08A1C5A1B1300301B32 /* Novikov brogue.jpg in Resources */,
+				9AEDC04D1C5A1B1300301B32 /* Alfred II brogue.jpg in Resources */,
+				9AEDC0551C5A1B1300301B32 /* Baldwin II.jpg in Resources */,
+				9AEDC05E1C5A1B1300301B32 /* Burford brogue.jpg in Resources */,
+				9AEDC05A1C5A1B1300301B32 /* Bodmin II brogue.jpg in Resources */,
+				9AEDC05B1C5A1B1300301B32 /* Bourton (Rubber) brogue.jpg in Resources */,
+				9AEDBFC61C5A19B000301B32 /* Assets.xcassets in Resources */,
+				9AEDC0651C5A1B1300301B32 /* Clive brogue.jpg in Resources */,
+				9AEDC0491C5A1B1300301B32 /* Adrian.jpg in Resources */,
+				9AEDC0851C5A1B1300301B32 /* Masuka.jpg in Resources */,
+				9AEDC0941C5A1B1300301B32 /* Stow brogue.jpg in Resources */,
+				9AEDC04C1C5A1B1300301B32 /* Aldwych.jpg in Resources */,
+				9AEDC0641C5A1B1300301B32 /* Classic.jpg in Resources */,
+				9AEDC0911C5A1B1300301B32 /* Sloop.jpg in Resources */,
+				9AEDBFC41C5A19B000301B32 /* Main.storyboard in Resources */,
+				9AEDC0951C5A1B1300301B32 /* Thatcher brogue.jpg in Resources */,
+				9AEDC07B1C5A1B1300301B32 /* James.jpg in Resources */,
+				9AEDC05D1C5A1B1300301B32 /* Buckingham brogue.jpg in Resources */,
+				9AEDC0761C5A1B1300301B32 /* Harry monk shoe.jpg in Resources */,
+				9AEDC06D1C5A1B1300301B32 /* Drake.jpg in Resources */,
+				9AEDC07D1C5A1B1300301B32 /* Keats 450.jpg in Resources */,
+				9AEDC07A1C5A1B1300301B32 /* J305 brogue.jpg in Resources */,
+				9AEDC0771C5A1B1300301B32 /* Henry II brogue.jpg in Resources */,
+				9AEDC0681C5A1B1300301B32 /* Cranmere monk shoe.jpg in Resources */,
+				9AEDC0811C5A1B1300301B32 /* Keswick (rubber) brogue.jpg in Resources */,
+				9AEDC0511C5A1B1300301B32 /* Ashby brogue.jpg in Resources */,
+				9AEDC0711C5A1B1300301B32 /* Exmoor brogue.jpg in Resources */,
+				9AEDC0721C5A1B1300301B32 /* Fencote brogue.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AEDBFCD1C5A19B000301B32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AEDBFD81C5A19B000301B32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9AEDBFB21C5A19B000301B32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AEDBFF21C5A1A0000301B32 /* Brand.m in Sources */,
+				9AEDBFF51C5A1A8100301B32 /* MainViewController.m in Sources */,
+				9AEDBFBE1C5A19B000301B32 /* AppDelegate.m in Sources */,
+				9AEDBFBB1C5A19B000301B32 /* main.m in Sources */,
+				9AEDBFEF1C5A19F100301B32 /* Model.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AEDBFCB1C5A19B000301B32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AEDBFD41C5A19B000301B32 /* TableViewEditWH31_32Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AEDBFD61C5A19B000301B32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AEDBFDF1C5A19B000301B32 /* TableViewEditWH31_32UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9AEDBFD11C5A19B000301B32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9AEDBFB51C5A19B000301B32 /* TableViewEditWH31-32 */;
+			targetProxy = 9AEDBFD01C5A19B000301B32 /* PBXContainerItemProxy */;
+		};
+		9AEDBFDC1C5A19B000301B32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9AEDBFB51C5A19B000301B32 /* TableViewEditWH31-32 */;
+			targetProxy = 9AEDBFDB1C5A19B000301B32 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9AEDBFC21C5A19B000301B32 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AEDBFC31C5A19B000301B32 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9AEDBFC71C5A19B000301B32 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AEDBFC81C5A19B000301B32 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9AEDBFE11C5A19B000301B32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9AEDBFE21C5A19B000301B32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9AEDBFE41C5A19B000301B32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "TableViewEditWH31-32/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Devil-Academy.TableViewEditWH31-32";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9AEDBFE51C5A19B000301B32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "TableViewEditWH31-32/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Devil-Academy.TableViewEditWH31-32";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9AEDBFE71C5A19B000301B32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "TableViewEditWH31-32Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Devil-Academy.TableViewEditWH31-32Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TableViewEditWH31-32.app/TableViewEditWH31-32";
+			};
+			name = Debug;
+		};
+		9AEDBFE81C5A19B000301B32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "TableViewEditWH31-32Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Devil-Academy.TableViewEditWH31-32Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TableViewEditWH31-32.app/TableViewEditWH31-32";
+			};
+			name = Release;
+		};
+		9AEDBFEA1C5A19B000301B32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "TableViewEditWH31-32UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Devil-Academy.TableViewEditWH31-32UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "TableViewEditWH31-32";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		9AEDBFEB1C5A19B000301B32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "TableViewEditWH31-32UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Devil-Academy.TableViewEditWH31-32UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "TableViewEditWH31-32";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9AEDBFB11C5A19B000301B32 /* Build configuration list for PBXProject "TableViewEditWH31-32" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AEDBFE11C5A19B000301B32 /* Debug */,
+				9AEDBFE21C5A19B000301B32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AEDBFE31C5A19B000301B32 /* Build configuration list for PBXNativeTarget "TableViewEditWH31-32" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AEDBFE41C5A19B000301B32 /* Debug */,
+				9AEDBFE51C5A19B000301B32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9AEDBFE61C5A19B000301B32 /* Build configuration list for PBXNativeTarget "TableViewEditWH31-32Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AEDBFE71C5A19B000301B32 /* Debug */,
+				9AEDBFE81C5A19B000301B32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9AEDBFE91C5A19B000301B32 /* Build configuration list for PBXNativeTarget "TableViewEditWH31-32UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AEDBFEA1C5A19B000301B32 /* Debug */,
+				9AEDBFEB1C5A19B000301B32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9AEDBFAE1C5A19B000301B32 /* Project object */;
+}
