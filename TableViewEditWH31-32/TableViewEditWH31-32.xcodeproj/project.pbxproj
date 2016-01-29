@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9AA977C71C5C22D500422235 /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AA977C61C5C22D500422235 /* add.png */; };
+		9AA977CB1C5C250400422235 /* WToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA977CA1C5C250400422235 /* WToast.m */; };
 		9AEDBFBB1C5A19B000301B32 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AEDBFBA1C5A19B000301B32 /* main.m */; };
 		9AEDBFBE1C5A19B000301B32 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AEDBFBD1C5A19B000301B32 /* AppDelegate.m */; };
 		9AEDBFC41C5A19B000301B32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AEDBFC21C5A19B000301B32 /* Main.storyboard */; };
@@ -118,6 +120,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9AA977C61C5C22D500422235 /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add.png; sourceTree = "<group>"; };
+		9AA977C91C5C250400422235 /* WToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WToast.h; sourceTree = "<group>"; };
+		9AA977CA1C5C250400422235 /* WToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WToast.m; sourceTree = "<group>"; };
 		9AEDBFB61C5A19B000301B32 /* TableViewEditWH31-32.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TableViewEditWH31-32.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AEDBFBA1C5A19B000301B32 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9AEDBFBC1C5A19B000301B32 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -246,6 +251,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9AA977C81C5C250400422235 /* WToast */ = {
+			isa = PBXGroup;
+			children = (
+				9AA977C91C5C250400422235 /* WToast.h */,
+				9AA977CA1C5C250400422235 /* WToast.m */,
+			);
+			path = WToast;
+			sourceTree = "<group>";
+		};
 		9AEDBFAD1C5A19B000301B32 = {
 			isa = PBXGroup;
 			children = (
@@ -269,6 +283,7 @@
 		9AEDBFB81C5A19B000301B32 /* TableViewEditWH31-32 */ = {
 			isa = PBXGroup;
 			children = (
+				9AA977C81C5C250400422235 /* WToast */,
 				9AEDBFEC1C5A19D900301B32 /* Models */,
 				9AEDBFBC1C5A19B000301B32 /* AppDelegate.h */,
 				9AEDBFBD1C5A19B000301B32 /* AppDelegate.m */,
@@ -324,6 +339,7 @@
 		9AEDBFF61C5A1B1300301B32 /* ImagesForApp */ = {
 			isa = PBXGroup;
 			children = (
+				9AA977C61C5C22D500422235 /* add.png */,
 				9AEDBFF71C5A1B1300301B32 /* 1034JW brogue.jpg */,
 				9AEDBFF81C5A1B1300301B32 /* Adrian.jpg */,
 				9AEDBFF91C5A1B1300301B32 /* Alastair.jpg */,
@@ -570,6 +586,7 @@
 				9AEDC0931C5A1B1300301B32 /* Stow (Rubber) brogue.jpg in Resources */,
 				9AEDC08A1C5A1B1300301B32 /* Novikov brogue.jpg in Resources */,
 				9AEDC04D1C5A1B1300301B32 /* Alfred II brogue.jpg in Resources */,
+				9AA977C71C5C22D500422235 /* add.png in Resources */,
 				9AEDC0551C5A1B1300301B32 /* Baldwin II.jpg in Resources */,
 				9AEDC05E1C5A1B1300301B32 /* Burford brogue.jpg in Resources */,
 				9AEDC05A1C5A1B1300301B32 /* Bodmin II brogue.jpg in Resources */,
@@ -621,6 +638,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9AEDBFF21C5A1A0000301B32 /* Brand.m in Sources */,
+				9AA977CB1C5C250400422235 /* WToast.m in Sources */,
 				9AEDBFF51C5A1A8100301B32 /* MainViewController.m in Sources */,
 				9AEDBFBE1C5A19B000301B32 /* AppDelegate.m in Sources */,
 				9AEDBFBB1C5A19B000301B32 /* main.m in Sources */,
@@ -848,6 +866,7 @@
 				9AEDBFE51C5A19B000301B32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9AEDBFE61C5A19B000301B32 /* Build configuration list for PBXNativeTarget "TableViewEditWH31-32Tests" */ = {
 			isa = XCConfigurationList;
@@ -856,6 +875,7 @@
 				9AEDBFE81C5A19B000301B32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9AEDBFE91C5A19B000301B32 /* Build configuration list for PBXNativeTarget "TableViewEditWH31-32UITests" */ = {
 			isa = XCConfigurationList;
@@ -864,6 +884,7 @@
 				9AEDBFEB1C5A19B000301B32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

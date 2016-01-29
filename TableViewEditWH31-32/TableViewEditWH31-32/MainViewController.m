@@ -9,6 +9,7 @@
 #import "MainViewController.h"
 #import "Brand.h"
 #import "Model.h"
+#import "WToast.h"
 
 @interface MainViewController () <UITableViewDataSource, UITableViewDelegate>
 
@@ -123,7 +124,8 @@
     }
     else
     {
-        NSLog(@"Больше нет брендов!");
+        
+        [WToast showWithText:@"Presented all brands!" duration:kWTShort roundedCorners:YES];
     }
 }
 
@@ -194,8 +196,11 @@
         if (!cell)
         {
             cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:addNewModelIdentifier];
-            cell.textLabel.textColor = [UIColor greenColor];
-            cell.textLabel.text = @"Add new model";
+            cell.backgroundColor = [UIColor lightGrayColor];
+            cell.textLabel.textColor = [UIColor whiteColor];
+            cell.textLabel.text = @"Tap to add new model";
+            UIImage *image = [UIImage imageNamed:@"add.png"];
+            cell.imageView.image = image;
         }
         return cell;
     }
@@ -301,7 +306,7 @@
         }
         else
         {
-            NSLog(@"Больше нет моделей данного бренда!");
+            [WToast showWithText:@"All models of this brand!" duration:kWTShort roundedCorners:YES];
         }
        
         
